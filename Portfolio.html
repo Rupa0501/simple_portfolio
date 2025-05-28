@@ -2,92 +2,212 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto&display=swap"
-    rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Tangerine:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Tagesschrift&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Londrina+Shadow&family=Love+Ya+Like+A+Sister&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Love+Ya+Like+A+Sister&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
+  </style>
+
+  <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-  <div id="home">
-  <nav>
-    <div id="logo">My Portfolio</div>
-    <ul id="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about_me">About Me</a></li>
-      <li><a href="#project">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</div>
-  <div id="about_me">
-    <div id="picturing">
-      <img src="Avatar of mine.png" alt="Profile photo">
+  <header>
+    <div id="heading">
+      <a href="#home">Rupa</a>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#edu-wrapper">Education</a>
+        <a href="#skills">Technical Skills</a>
+        <a href="">Certification</a>
+        <a href="#contact-area">Contact</a>
+      </nav>
+      <div id="socialmedia">
+        <a href="https://github.com/Rupa0501" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/rupashree.s05/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/05-01-2005-rupashree-s-linked/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
     </div>
-    <div id="text-content">
-      <h1>Hi! I'm Rupashree.S</h1>
-      <p>"I am an aspiring full-stack developer with a strong foundation in front-end and back-end technologies.
-        Currently, I am actively learning HTML, CSS, JavaScript, MongoDB, Express.js, React.js, Node.js (MERN full
-        stack) to build dynamic, responsive, and scalable web applications. Although I am a fresher, I am deeply
-        passionate about coding and have been honing my skills through hands-on projects, coding challenges, and online
-        courses.
-        <br><br>
-        I am excited about the possibilities of web development and committed to continuing my learning journey to
-        become a proficient full-stack developer. I enjoy solving problems, collaborating with others, and staying
-        up-to-date with industry trends.
-        <br><br>
-        I am open to networking with fellow developers, learning from experienced professionals, and exploring
-        internship or junior developer opportunities that will allow me to apply my skills and gain practical
-        experience."
-      </p>
-      <a href="Updated.pdf" target="_blank" rel="noopener noreferrer" class="btn">
-        View Resume
-      </a>
-      
+  </header>
+
+
+  <Section id="home">
+    <div id="home2"><img src="avatarofmine.png" alt="."></div>
+
+    <div id="home1">
+      <p id="heading1">Crafting Digital <br>Experiences with Passion</p>
+      <p id="heading2">"Hi, I'm Rupa! I'm passionate about technology, problem-solving, and continuous growth. This
+        portfolio is a snapshot of my academic path, projects, and the things I love creating."</p>
+      <div id="heading3">
+        <a href="#contact-area"  id="headingbtn1">Let's Connect</a>
+        <a href="Updated.pdf" target="_blank" id="headingbtn1">My Resume</a>
+
+      </div>
+
+    </div>
+
+  </Section>
+
+
+  <section id="about">
+      <h1>About</h1>
+    <div class="container">
+      <div class="profile-pic">
+        <img src="originalpicture.jpg" alt="Profile Photo">
+      </div>
+      <div class="about-section">
+        <div class="about-title">About Me</div>
+        <div class="main-title">Full Stack developer</div>
+        <div class="description">
+          I am actively learning HTML, CSS, JavaScript, MongoDB, Express.js, React.js, Node.js (MERN full
+          stack) to build dynamic, responsive, and scalable web applications.
+        </div>
+        <div class="description">
+          Although I am a fresher, I am deeply
+          passionate about coding and have been honing my skills through hands-on projects, coding challenges, and
+          online
+          courses.
+        </div>
+        <div class="info-box">
+          <div class="info-item"><span class="info-label">Name</span><br>Rupashree.S</div>
+          <div class="info-item"><span class="info-label">Phone</span><br> +91 9740520403</div>
+          <div class="info-item"><span class="info-label">Age</span><br> 20 Years</div>
+          <div class="info-item"><span class="info-label">Email</span><br> rupashree.s0501@gmail.com</div>
+          <div class="info-item"><span class="info-label">Occupation</span><br> Fresher</div>
+          <div class="info-item"><span class="info-label">Nationality</span><br> Indian</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <div id="edu-wrapper">
+    <div id="abouthead2">
+      <h1>Education</h1>
+
+    </div>
+
+    <div class="edu-timeing">
+
+      <div class="edu-item">
+        <div class="edu-left">
+          <div class="edu-school">Vidyavahini First Grade college</div>
+          <div class="edu-year">2022 - 2025</div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-degree">Bachelor in Computer Application</div>
+          <div class="edu-desc">CGPA : 8.62 / 10</div>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div class="edu-left">
+          <div class="edu-school">Sarvodaya Pre University college</div>
+          <div class="edu-year">2020 - 2022</div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-degree">Pre University(PU)</div>
+          <div class="edu-desc">Science(PCMC) - Percentage : 72.64%</div>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div class="edu-left">
+          <div class="edu-school">Anikethana Vidya mandira</div>
+          <div class="edu-year">2019 - 2020</div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-degree">Secondary School Leaving Certificate(SSLC)</div>
+          <div class="edu-desc">Pecentage : 89.28%</div>
+        </div>
+      </div>
+
     </div>
   </div>
-  <div id="line"></div>
 
 
-  <div id="project">
-    <div id="logo">My Projects</div>
-    <br>
-    <a href="https://github.com/Rupa0501/image_gallery.git" target="_blank" rel="noopener noreferrer" class="btn1">
-      First Project 
-    </a>
-    <a href="https://github.com/Rupa0501/simple_portfolio.git" target="_blank" rel="noopener noreferrer" class="btn1">
-      Second Project
-    </a>
-    <a href="https://github.com/Rupa0501/simple_calculator.git" target="_blank" rel="noopener noreferrer" class="btn1">
-      Third Project
-    </a>
-  </div>
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="box">
+      <div class="skill-card">
+        <h3>HTML</h3>
+        <p>Able to create structured, semantic, and accessible web pages using HTML5.</p>
+        <div class="progress-wrap">
+          <div class="progress-bar" style="width: 80%;"></div>
+          <span class="percent">90%</span>
+        </div>
+      </div>
 
-  <div id="line"></div>
+      <div class="skill-card">
+        <h3>CSS</h3>
+        <p>Skilled in styling responsive, mobile-friendly websites using CSS3, Flexbox.</p>
+        <div class="progress-wrap">
+          <div class="progress-bar" style="width: 80%;"></div>
+          <span class="percent">90%</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3>JavaScript</h3>
+        <p>Familiar with basic JavaScript concepts like variables, functions, and events</p>
+        <div class="progress-wrap">
+          <div class="progress-bar" style="width: 60%;"></div>
+          <span class="percent">60%</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Excel</h3>
+        <p>Experienced in data analysis using Excel functions, charts, and pivot tables</p>
+        <div class="progress-wrap">
+          <div class="progress-bar" style="width: 70%;"></div>
+          <span class="percent">80%</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
-  <div id="contact">
+  <section id="contact-area">
+    <div class="info-side">
+      <h2>Contact</h2>
+      <h3>Feel Free to Reach Out</h3>
+      <p>If you have any questions, feedback, or would like to get in touch, feel free to contact me. You can reach
+        me via email or by phone. I am also available on LinkedIn for professional connections. I look forward to
+        hearing from you!</p>
+      <ul class="info-list">
+        <li><span class="icon"><i class="fa-regular fa-envelope"></i></span> rupashree.s0501@gmail.com</li>
+        <li><span class="icon"><i class="fa-solid fa-phone"></i></span> +91 9740520403</li>
+        <li><span class="icon"><i class="fa-solid fa-location-dot"></i></span> Karnataka, India </li>
+      </ul>
+    </div>
 
-    <a href="https://www.instagram.com/rupashree.s05/" target="_blank" rel="noopener noreferrer"
-      title="Visit Instagram profile">
-      <i class="fab fa-instagram"></i>
-    </a>
-    <a href="https://github.com/Rupa0501" target="_blank" rel="noopener noreferrer" title="Visit GitHub profile">
-      <i class="fa-brands fa-github"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/05-01-2005-rupashree-s-linked/" target="_blank" rel="noopener noreferrer"
-      title="Visit LinkedIn profile">
-      <i class="fa-brands fa-linkedin"></i>
-    </a>
-    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rupashree.s0501@gmail.com" target="_blank"  rel="noopener noreferrer" title="Send mail">
-      <i class="fab fa-google"></i>
-    </a>
-    
-  </div>
-  </div>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="text" placeholder="Subject" required>
+      <textarea rows="6" placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- <footer>
+    <p>Designed by Rupashree.S</p>
+  </footer> -->
+
 </body>
 
 </html>
