@@ -143,6 +143,7 @@ nav {
     font-weight: lighter;
     color: #c5c3c6;
     font-family: "Love Ya Like A Sister", cursive;
+    font-family: "Cabin Sketch", sans-serif;
 
 }
 
@@ -166,10 +167,11 @@ nav {
     align-items: center;
     text-decoration: none;
     color: #495057;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     background-color: white;
     transition: 0.5s;
+    font-family: "Averia Sans Libre", sans-serif;
 
 }
 
@@ -222,6 +224,7 @@ nav {
     color: #2c2a32;
     margin-bottom: 30px;
     margin-top: -50px;
+    font-family: "Cabin Sketch", sans-serif;
 }
 
 
@@ -271,12 +274,16 @@ nav {
     font-weight: 700;
     margin-bottom: 15px;
     color: #111;
+    font-family: "Cabin Sketch", sans-serif;
+    font-family: "Londrina Shadow", sans-serif;
+
 }
 
 .description {
     font-size: 15px;
     color: #666;
     margin-bottom: 20px;
+    font-family: "Tilt Neon", sans-serif
 }
 
 .info-box {
@@ -293,8 +300,8 @@ nav {
 
 .info-item {
     font-size: 18px;
-    font-weight: bold;
     line-height: 25px;
+    font-family: "Tilt Neon", sans-serif
 }
 
 .info-label {
@@ -331,9 +338,6 @@ nav {
     padding-top: 20px;
 }
 
-
-
-
 .edu-timeing {
     height: auto;
     width: 65%;
@@ -353,6 +357,7 @@ nav {
     padding-left: 80px;
     height: auto;
     width: 240px;
+
 }
 
 .edu-right {
@@ -366,6 +371,7 @@ nav {
     font-size: 16px;
     color: #343a40;
     width: 260px;
+    font-family: "Tilt Neon", sans-serif
 }
 
 .edu-year {
@@ -378,12 +384,14 @@ nav {
     font-weight: bold;
     font-size: 17px;
     color: #2c3e50;
+    font-family: "Tilt Neon", sans-serif
 }
 
 .edu-desc {
     font-size: 14px;
     color: #666;
     margin-top: 5px;
+
 }
 
 
@@ -410,6 +418,8 @@ nav {
     font-size: 38px;
     color: #2c2a32;
     margin-bottom: 60px;
+    font-family: "Cabin Sketch", sans-serif;
+
 }
 
 .box {
@@ -433,6 +443,7 @@ nav {
     margin-bottom: 10px;
     font-size: 19px;
     color: #2c2a32;
+    font-family: "Tilt Neon", sans-serif
 }
 
 .skill-card p {
@@ -440,6 +451,7 @@ nav {
     color: #666;
     margin-bottom: 30px;
     line-height: 1.5;
+    font-family: "Tilt Neon", sans-serif
 }
 
 .progress-wrap {
@@ -505,7 +517,6 @@ nav {
     max-width: 500px;
     height: 500px;
     gap: 15px;
-
 }
 
 .info-side h3 {
@@ -513,18 +524,21 @@ nav {
     color: #9a9a9a;
     text-transform: uppercase;
     margin-bottom: 10px;
+    font-family: "Tilt Neon", sans-serif
 }
 
 .info-side h2 {
     font-size: 38px;
     color: #2c2a32;
     margin-bottom: 20px;
+    font-family: "Cabin Sketch", sans-serif;
 }
 
 .info-side p {
     font-size: 17px;
     margin-bottom: 25px;
     line-height: 1.6;
+    font-family: "Tilt Neon", sans-serif
 }
 
 .info-list {
@@ -541,7 +555,7 @@ nav {
     align-items: center;
     margin-bottom: 12px;
     font-size: 16px;
-
+    font-family: "Tilt Neon", sans-serif
 }
 
 .icon {
@@ -578,7 +592,7 @@ form textarea {
     font-family: 'Open Sans', sans-serif;
     transition: 0.3s;
     padding: 20px 300px 20px 10px;
-
+    font-family: "Tilt Neon", sans-serif
 }
 
 form button {
@@ -589,6 +603,9 @@ form button {
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s ease;
+    font-family: "Cabin Sketch", sans-serif;
+    font-size: 17px;
+
 }
 
 form button:hover {
@@ -611,21 +628,16 @@ form button:hover {
     font-size: 40px;
     color: #2c2a32;
     margin-bottom: 20px;
+    font-family: "Cabin Sketch", sans-serif;
 
-}
 
-
-#abouthead2 svg {
-    color: #343a40;
-    height: 100px;
-    width: 200px;
-    margin-top: -55px;
 }
 
 
 
 
-footer{
+
+footer {
     width: 100%;
     height: 60px;
     background-color: white;
@@ -633,7 +645,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 footer p {
